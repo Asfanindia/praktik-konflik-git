@@ -1,3 +1,5 @@
 <?php
-echo "Praktik Git Conflict";
-?>
+function calculatePrice($basePrice, $taxRate) {
+    // Calculate final price with tax
+    return $basePrice + ($basePrice * $taxRate);
+}
